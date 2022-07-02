@@ -1,8 +1,11 @@
 
 zygnRM/*.pdf
 
-Yuanshi/*.pdf
-Yuanshi/*.epub
+
+
+Yuanshi/*/*.pdf
+Yuanshi/*/*/*.pdf
+*.epub
 
 ########################################
 # 文件大於 100M
