@@ -85,8 +85,8 @@ GMZYhsjc
     古代汉语-基础知识     :crit,    ks-hyjc, 03-01, 200d
     中医概念入门          :         rm, 03-01, 20d 
     实用中医文献学        :         zx-zywx, after ks-hyjc, 80d
-    中医药学概论          :         zx-yxgl, after ks-hyjc, 60d
-    中医诊法中药方剂口诀  :crit,    ks-kj, after zx-yxgl, 200d
+    中医药学概论          :         zx-zygl, after ks-hyjc, 60d
+    中医诊法中药方剂口诀  :crit,    ks-kj, after zx-zygl, 200d
     临证程序与辩证思维    :         zx-lzcx, after zx-zywx, 70d
 
     section 第二階段
@@ -124,10 +124,11 @@ GMZYhsjc
 第一階段：基礎
 
 1. 中醫概念入門（看完一遍20220702，）
-2. 中醫藥學概論
-3. 中醫針法珍法中藥方劑口訣 及 淺釋
+2. 中醫概論
+3. 中醫診法中藥方劑口訣 及 淺釋
 4. 古代漢語
-5. 
+5. 針灸學
+6. 
 
 第二階段：經典
 
