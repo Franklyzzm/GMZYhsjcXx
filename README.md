@@ -85,7 +85,7 @@ GMZYhsjc
     古代汉语-基础知识     :crit,    ks-hyjc, 03-01, 200d
     中医概念入门          :         rm, 03-01, 20d 
     实用中医文献学        :         zx-zywx, after ks-hyjc, 80d
-    中医药学概论          :         zx-zygl, after ks-hyjc, 60d
+    中医概论          :         zx-zygl, after ks-hyjc, 60d
     中医诊法中药方剂口诀  :crit,    ks-kj, after zx-zygl, 200d
     临证程序与辩证思维    :         zx-lzcx, after zx-zywx, 70d
 
