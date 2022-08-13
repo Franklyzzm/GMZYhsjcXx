@@ -70,13 +70,14 @@ GMZYhsjc
 
 ```mermaid
 %% Example with selection of syntaxes
-  %% 用 KS 考試，KC 考察，ZX 自修，
+%% 用 KS 考試，KC 考察，ZX 自修，
+%% 狀態:  ,crit,active,done,
 
     gantt
     dateFormat  MM-DD
     title 學習進度計劃
 
-  %% 用 1學時 用 1d 表示
+%% 用 1學時 用 1d 表示
 
     section 第一階段
     中国医学发展史概要    :done,    kc-yxfz, 01-01, 36d
@@ -85,36 +86,37 @@ GMZYhsjc
     古代汉语-基础知识     :crit,    ks-hyjc, 03-01, 200d
     中医概念入门          :         rm, 03-01, 20d 
     实用中医文献学        :         zx-zywx, after ks-hyjc, 80d
-    中医概论          :         zx-zygl, after ks-hyjc, 60d
+    中医概论              :crit,    zx-zygl, after ks-hyjc, 60d
     中医诊法中药方剂口诀  :crit,    ks-kj, after zx-zygl, 200d
     临证程序与辩证思维    :         zx-lzcx, after zx-zywx, 70d
+    针灸学                :crit,    ks-zj, 01-01, 150d
 
     section 第二階段
-    中医学科学原理         :done,          zx-kxyl, 01-01, 36d
-    黄帝内经讲解           :crit, done,    ks-hdnj, 01-16, 200d
-    伤寒论讲解             :crit, active,  ks-shl, 01-16, 200d
-    金匮要略讲解           :               ks-jkyl, after ks-shl, 150d
-    温病条辨讲解           :               ks-wbtb, after ks-shl, 200d
-    本草备要讲解           :crit,          ks-bcby, after ks-jkyl,100d
+    中医学科学原理    :done,          zx-kxyl, 01-01, 36d
+    黄帝内经讲解      :crit, active,  ks-hdnj, 01-16, 200d
+    伤寒论讲解        :crit, done,    ks-shl, 01-16, 200d
+    金匮要略讲解      :               ks-jkyl, after ks-shl, 150d
+    温病条辨讲解      :               ks-wbtb, after ks-shl, 200d
+    本草备要讲解      :crit,          ks-bcby, after ks-jkyl,100d
 
     section 第三階段
-    方剂讲解           :crit, active,  ks-fj, 01-01, 200d
-    中医内科学         :crit, active,  ks-nk, 01-01, 300d
-    中医外科学         :crit,          ks-wk, 03-31, 100d
-    中医骨伤科学       :               kc-gsk, 08-01, 100d
-    中医眼科学         :               kc-yk, 09-01, 100d
-    中医妇科学         :crit,          ks-fk, 10-01, 100d
-    中医儿科学         :crit,          ks-ek, after ks-fk, 100d
+    方剂讲解        :crit, active,  ks-fj, 01-01, 200d
+    中医内科学      :crit, active,  ks-nk, 01-01, 300d
+    中医外科学      :crit,          ks-wk, 03-31, 100d
+    中医骨伤科学    :               kc-gsk, 08-01, 100d
+    中医眼科学      :               kc-yk, 09-01, 100d
+    中医妇科学      :crit,          ks-fk, 10-01, 100d
+    中医儿科学      :crit,          ks-ek, after ks-fk, 100d
 
     section 第四階段
-    针灸学                    :crit,  ks-zj, 01-01, 150d
-    中医喉科学                :       kc-hk, 02-01, 100d
-    名医医案选                :       zx-ya, 03-01, 100d
-    历代医籍选介              :       zx-yj, after zx-ya, 100d
-    现代医学知识              :done, 60d
-    中西医结合临床成果        :done, 20d
-    中医科研课题设计的探讨    :done, 20d
-    现代科技                  :done, 20d
+%%  针灸学                  :crit,  ks-zj, 01-01, 150d
+    中医喉科学              :       kc-hk, 02-01, 100d
+    名医医案选              :       zx-ya, 03-01, 100d
+    历代医籍选介            :       zx-yj, after zx-ya, 100d
+    现代医学知识            :done,  60d
+    中西医结合临床成果      :done,  20d
+    中医科研课题设计的探讨  :done,  20d
+    现代科技                :done,  20d
 ```
 
 <!--program subject course class-->
