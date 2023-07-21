@@ -1,13 +1,17 @@
-
-zygnRM/*.pdf
-
+# 忽略
 
 
-Yuanshi/*/*.pdf
-Yuanshi/*/*/*.pdf
+
+########################################
+# 忽略pdf
+*.pdf
+ zygnRM/*.pdf
+ Yuanshi/*/*.pdf
+ Yuanshi/*/*/*.pdf
+
 *.epub
 
 ########################################
 # 文件大於 100M
-Yuanshi/光明教材扫描版/7方剂、口诀浅释.pdf
+Yuanshi/光明教材扫描版/7中医诊法中药方剂、口诀浅释(扫描).pdf
 
